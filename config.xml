@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+	<VALUE>
+
+
+		<!-- <MysqlUrl>jdbc:mysql://10.120.0.25:3306/tendency?useUnicode=true&amp;characterEncoding=utf-8</MysqlUrl> -->
+
+		<MysqlUrl>jdbc:mysql://10.120.0.37:3306/tendency?useUnicode=true&amp;characterEncoding=utf-8&amp;rewriteBatchedStatements=true
+		</MysqlUrl>
+		<MysqlUser>root</MysqlUser>
+		<MysqlPassWord>123456</MysqlPassWord>	
+		<MysqlSyncTable>mongodbcurlid_ccc</MysqlSyncTable>
+
+		<RedisIP>192.168.135.25</RedisIP>
+		<RedisPort>6380</RedisPort>
+		<RedisPassWord>tendency123456</RedisPassWord>
+		<RedisDb>0</RedisDb>
+		<RedisListName>RedisData</RedisListName>
+
+		<MongoIP>192.168.135.25</MongoIP>
+		<MongoPort>27017</MongoPort>
+		<MongoCollName>tendencydata</MongoCollName>
+
+
+		<!-- 一次性处理的Redis -->
+		<DataSize>20000</DataSize>
+		
+		<!-- Redis没数据时暂停（秒） -->
+		<RedisNoDataTime>1</RedisNoDataTime>
+
+		<!-- 同步LastId时间间隔（秒） -->
+		<IsSyncTime>false</IsSyncTime>
+		<SyncTime>60</SyncTime>
+
+	
+		<!-- 打印统计信息时间间隔（秒） -->
+		<IsPrintTime>false</IsPrintTime>
+		<PrintTime>2</PrintTime>
+
+	
+		<!-- 在列表有数据情况下，Redis返回为空多少次后处理列表。 -->
+		<NotDataNum>10</NotDataNum>
+
+
+	</VALUE>
+</CONFIG> 
