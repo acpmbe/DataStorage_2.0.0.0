@@ -6,7 +6,6 @@ import bll.CmdS.Control_Bll;
 import bll.CmdS.Data_Bll;
 import bll.CmdS.DevWayInOutNotify_Bll;
 import bll.CmdS.ICmd;
-import util.ErrorInfo;
 import util.Log;
 
 import java.io.PrintWriter;

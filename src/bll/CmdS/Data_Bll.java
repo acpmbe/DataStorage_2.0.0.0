@@ -1,18 +1,14 @@
 package bll.CmdS;
 
-import static org.junit.Assert.assertNotNull;
+
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import org.bson.Document;
-import org.bson.codecs.pojo.Convention;
-
 import mod.EInfoStatis;
 import mod.CmdS.ELastInfo;
 import util.Config;

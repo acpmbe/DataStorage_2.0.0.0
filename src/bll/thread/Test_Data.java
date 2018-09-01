@@ -1,7 +1,7 @@
 package bll.thread;
 
 import mod.EInfoStatis;
-import util.Config;
+
 
 public class Test_Data implements Runnable
 {

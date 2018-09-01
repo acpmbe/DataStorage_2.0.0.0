@@ -1,7 +1,5 @@
 package util;
 
-import com.mongodb.MongoClient;
-import com.mongodb.client.MongoDatabase;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
